@@ -10,7 +10,7 @@ function getWeather() {
     .then(data => renderWeather(data, days));
 }
 
-// Renderizar tarjetas
+// Renderizar tarjetas app
 function renderWeather(data, days) {
   const container = document.getElementById("results");
   container.innerHTML = "";
