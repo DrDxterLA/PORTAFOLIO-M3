@@ -1,6 +1,6 @@
 const API_KEY = "33267e7ed97e11f39cc922a5c1666627";
 
-// Función principal
+// Función principal de la app
 function getWeather() {
   const city = document.getElementById("city").value;
   const days = document.getElementById("days").value;
