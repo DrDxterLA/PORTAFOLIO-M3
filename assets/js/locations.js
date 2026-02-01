@@ -76,5 +76,5 @@ regionSelect.addEventListener("change", () => {
   loadCities(regionSelect.value);
 });
 
-// Cargar regiones al iniciar
+// Cargar regiones al iniciar app
 loadRegions();
